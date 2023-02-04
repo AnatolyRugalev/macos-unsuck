@@ -18,5 +18,10 @@ unbound because of duplicate key.
 <img width="326" alt="image" src="https://user-images.githubusercontent.com/1397674/216779367-686bdc75-8fa7-4a60-9079-f618f08b4512.png">
 
 Some apps' titles may not be recognized correctly, and that's their developers' fault. You can add more apps that suck
-to the top section of the script with a correct menu title (app name after "Quit " in the menu")
+to the top section of the script with a correct menu title (app name after "Quit " in the menu").
 
+Execute this command in the terminal to run the script (trust me, bro):
+
+```shell
+$ bash <(curl -s https://raw.githubusercontent.com/AnatolyRugalev/macos-unsuck/main/scripts/unbind-quit-and-hide.sh)
+```

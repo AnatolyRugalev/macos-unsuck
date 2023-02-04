@@ -5,7 +5,7 @@ set -e
 suckerID=com__logi__ghub; suckerTitle="G HUB"; declare "suckers_$suckerID=$suckerTitle"
 
 apps="$(
-  find /Applications -not -path '*/.*' -name 'Google Chrome.app' -maxdepth 1 | sort -h
+  find /Applications -not -path '*/.*' -name '*.app' -maxdepth 1 | sort -h
 )"
 
 echo "$apps"
@@ -37,8 +37,6 @@ menuNameProperties=(
 'CFBundleDisplayName'
 'CFBundleName'
 )
-
-set -x
 
 IFS=$'\n' read -a customMenuApps <<< $(defaults read ./com.apple.universalaccess.plist "com.apple.custommenu.apps" | sed -E -e 's/[[:blank:]",]//g' -e '1d' -e '$d' )
 while IFS= read -r app; do

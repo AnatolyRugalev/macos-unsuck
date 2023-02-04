@@ -13,7 +13,7 @@ You can see the results of this script in `System Preferences` -> `Keyboard` -> 
 
 The script binds "Hide Others", "Hide" and "Quit" menu actions to <kbd>Control</kbd> + <kbd>Option</kbd> + 
 <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>Q</kbd>. This results in "Hide" and "Quit" actions to be completely 
-unbound because of duplicate key.
+unbound because of the duplicates:
 
 <img width="326" alt="image" src="https://user-images.githubusercontent.com/1397674/216779367-686bdc75-8fa7-4a60-9079-f618f08b4512.png">
 

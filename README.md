@@ -23,5 +23,5 @@ to the top section of the script with a correct menu title (app name after "Quit
 Execute this command in the terminal to run the script (trust me, bro):
 
 ```shell
-$ bash <(curl -s https://raw.githubusercontent.com/AnatolyRugalev/macos-unsuck/main/scripts/unbind-quit-and-hide.sh)
+bash <(curl -s https://raw.githubusercontent.com/AnatolyRugalev/macos-unsuck/main/scripts/unbind-quit-and-hide.sh)
 ```
